@@ -1,0 +1,76 @@
+[
+  {
+    "case_id": "NG-0001",
+    "title": "Synthetic Product Testimonial Example",
+    "status": "under_review",
+    "review_status": "community_review",
+    "content_type": "synthetic_media",
+    "platform": "Example Platform",
+    "date_found": "2026-09-01",
+    "description": "A fictional example of an AI-generated testimonial presented as if it were created by a real customer.",
+    "potential_techniques": [
+      "synthetic_media",
+      "deceptive_content"
+    ],
+    "evidence_status": "partial",
+    "observed": "The available content appears to contain AI-generated media and presents a testimonial-style statement.",
+    "potential_interpretation": "The content may create the impression that a real individual provided the testimonial.",
+    "alternative_interpretation": "The content may have been created as clearly labeled promotional or illustrative material.",
+    "open_questions": [
+      "Was the synthetic nature of the content disclosed?",
+      "Who created the content?",
+      "What was the intended audience?"
+    ],
+    "evidence": [],
+    "research_references": []
+  },
+  {
+    "case_id": "NG-0002",
+    "title": "Personalized Promotional Message Example",
+    "status": "documented",
+    "review_status": "not_reviewed",
+    "content_type": "text",
+    "platform": "Example Platform",
+    "date_found": "2026-09-05",
+    "description": "A fictional example showing how a promotional message could be adapted to a specific audience profile.",
+    "potential_techniques": [
+      "personalized_persuasion",
+      "behavioral_targeting"
+    ],
+    "evidence_status": "partial",
+    "observed": "The fictional message references preferences that appear tailored to a particular audience segment.",
+    "potential_interpretation": "The message may have been personalized using information about audience interests or behavior.",
+    "alternative_interpretation": "The message may simply use broad marketing language designed for a general audience.",
+    "open_questions": [
+      "What information was used to create the personalization?",
+      "Was the audience aware of the personalization?",
+      "Was AI used to generate or adapt the message?"
+    ],
+    "evidence": [],
+    "research_references": []
+  },
+  {
+    "case_id": "NG-0003",
+    "title": "Contextual Image Example",
+    "status": "under_review",
+    "review_status": "community_review",
+    "content_type": "image",
+    "platform": "Example Platform",
+    "date_found": "2026-09-10",
+    "description": "A fictional example involving an authentic image presented without important contextual information.",
+    "potential_techniques": [
+      "context_manipulation"
+    ],
+    "evidence_status": "partial",
+    "observed": "The image appears authentic, but the accompanying description provides limited context about when and where it was originally created.",
+    "potential_interpretation": "Selective presentation of the image may influence how viewers interpret it.",
+    "alternative_interpretation": "The missing context may be the result of limited space, incomplete information, or ordinary reposting.",
+    "open_questions": [
+      "What is the original source?",
+      "When was the image created?",
+      "What context accompanied the original publication?"
+    ],
+    "evidence": [],
+    "research_references": []
+  }
+]
