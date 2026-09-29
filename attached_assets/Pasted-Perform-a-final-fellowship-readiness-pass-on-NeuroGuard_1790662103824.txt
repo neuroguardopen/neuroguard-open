@@ -1,0 +1,76 @@
+Perform a final fellowship-readiness pass on NeuroGuard Open.
+
+The goal is NOT to add more features. The goal is to make the existing prototype communicate the project's research thesis, open-source mission, and human-centered methodology as clearly as possible.
+
+Prioritize these improvements:
+
+1. Make the landing page immediately explain:
+   "NeuroGuard Open is open-source research infrastructure for documenting, studying, and reporting potentially manipulative AI-generated content."
+
+2. Make the central workflow visually obvious:
+   Document → Understand → Review → Research → Report
+
+3. Make Case #NG-0024 the strongest demonstration of the product.
+
+4. Improve the case investigation page with:
+
+   * What was observed
+   * Evidence
+   * Evidence status
+   * What remains uncertain
+   * Potential techniques
+   * Analysis
+   * Alternative interpretation
+   * Community review
+   * Related research
+   * Sources
+
+5. Never present a definitive "manipulation detected" result.
+
+6. Do not use manipulation scores, threat scores, risk scores, or alarm-style labels.
+
+7. Use:
+
+   * Potential Technique
+   * Evidence
+   * Under Community Review
+   * Additional Evidence Needed
+   * Open Research Case
+
+8. Make the Taxonomy feel like a real research framework rather than a collection of marketing cards.
+
+9. Add:
+
+   * Project Status
+   * Roadmap
+   * Why Open Source?
+   * Research Question
+   * How to Contribute
+
+10. Make the Research & Open Data page clearly communicate that NeuroGuard is intended to become open research infrastructure, not simply a web application.
+
+11. Clearly label demo/example data so visitors never mistake fictional prototype cases for real documented cases.
+
+12. Make GitHub and contribution pathways highly visible.
+
+13. Improve typography, spacing, hierarchy, accessibility, responsive behavior, and consistency.
+
+14. Remove any unnecessary futuristic AI/cybersecurity visual language.
+
+15. Keep the visual identity:
+    gunmetal / charcoal
+    restrained cyan/electric blue
+    serious
+    research-oriented
+    open-source
+    accessible
+
+16. Ensure every navigation item and major button works.
+
+17. Ensure the entire application builds and runs without errors.
+
+Do not redesign the concept into a generic AI SaaS product.
+
+The final impression should be:
+
+"This is an early but serious open-source research infrastructure project with a clear thesis, a working prototype, and a credible path toward community-driven research."

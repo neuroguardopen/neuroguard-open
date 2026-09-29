@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "NeuroGuard Open"
+description = "An open-source research prototype for documenting and studying potentially manipulative AI-generated content, with a searchable case library, human review tools, and a transparent influence taxonomy."
+version = "1.0.0"
+id = "artifacts/neuroguard-open"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23384
+
+[services.development]
+run = "pnpm --filter @workspace/neuroguard-open run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/neuroguard-open", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/neuroguard-open/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23384"
+BASE_PATH = "/"
