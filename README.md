@@ -24,10 +24,3 @@ The README should include:
 - How to contribute
 - Link to the live prototype:
 https://neuro-guard-open--neuroguard.replit.app/
-
-Important:
-Do not claim that NeuroGuard automatically detects or proves manipulation.
-Emphasize evidence, uncertainty, human review, transparency, and human agency.
-
-After creating README.md, commit the change and push it to the connected GitHub repository.
-Do not create a new repository.
